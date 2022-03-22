@@ -22,7 +22,7 @@ Example params for remove all images tags that match glob `develop-*`:
 root@machine:$ docker-registry-v2-helper -glob "develop-*" -username "user" -password "pass" -url "https://mycool.registry.com"`
 ```
 
-> ⚠️ After script is complete their work please notice that you neet to run garbage collection task on your registry to clear disk space:
+> ⚠️ After script is complete their work please notice that you need to run garbage collection task on your registry to clear disk space:
 `registry garbage-collection /etc/docker/registry/config.yml`
 
 ---
